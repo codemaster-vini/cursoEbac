@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>jQuery</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Galeria de fotos</h1>
+            <button id="header-button">Nova imagem</button>
+        </div>
+    </header>
+
+    <form>
+        <h1>Adicionar uma imagem</h1>
+        <input type="url" placeholder="URL da Imagem" id="url-imagem">
+        <button type="submit">Adicionar</button>
+        <button type="reset" id="cancelar">Cancelar</button>
+    </form>
+
+    <ul>
+        <div class="container-imagens">
+            <li>
+                <img src="images/foto1.jpg" alt="Pintura de um gato">
+                <div class="imagem-link">
+                    <a href="images/foto1.jpg" target="_blank" rel="external" title="Ver imagem em tamanho real">Ver imagem em tamanho real</a>
+                </div>
+            </li>
+            <li>
+                <img src="images/foto2.jpg" alt="Pintura de um gato">
+                <div class="imagem-link">
+                    <a href="images/foto2.jpg" target="_blank" rel="external" title="Ver imagem em tamanho real">Ver imagem em tamanho real</a>
+                </div>
+            </li>
+            <li>
+                <img src="images/foto3.jpg" alt="Pintura de um gato">
+                <div class="imagem-link">
+                    <a href="images/foto3.jpg" target="_blank" rel="external" title="Ver imagem em tamanho real">Ver imagem em tamanho real</a>
+                </div>
+            </li>
+            <li>
+                <img src="images/foto4.jpg" alt="Pintura de um gato">
+                <div class="imagem-link">
+                    <a href="images/foto4.jpg" target="_blank" rel="external" title="Ver imagem em tamanho real">Ver imagem em tamanho real</a>
+                </div>
+            </li>
+        </div>
+    </ul>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,103 @@
+@charset "UTF-8";
+
+:root{
+    --font-pricipal: Arial, Helvetica, sans-serif;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: var(--font-pricipal);
+    background-color: lightgray;
+}
+
+.container{
+    align-content: center;
+    margin: auto;
+    max-width: 500px;
+    margin-bottom: 20px;
+}
+
+.container#head{
+    margin-top: 100px;
+}
+
+body img{
+    width: 28px;
+    margin-right: 10px;
+}
+
+.container>form input{
+    margin-right: 10px;
+    padding: 5px;
+    width: 255px;
+    font-weight: bolder;
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+}
+
+.container>form input:focus{
+    outline-color: none;
+}
+
+.container>form input#nota{
+    width: 60px;
+}
+
+.container > form button{
+    padding: 5px;
+    width: 95px;
+    background-color: green;
+    color: #fff;
+    font-weight: bold;
+    border:none;
+    font-size: 14px;
+    padding-bottom: 7px;
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table th{
+    border-bottom: 2px solid black;
+}
+
+table th,
+table td{
+    width: 150px;
+    padding: 5px;
+}
+
+table td{
+    text-align: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.171);
+}
+
+table tfoot td{
+    border-top: 2px solid black;
+    border-bottom: 0px;
+}
+
+span#aprovado{
+    background-color: green;
+    padding: 3px;
+    color: #fff;
+    border-radius: 7px;
+}
+
+span#reprovado{
+    background-color: red;
+    padding: 3px;
+    color: #fff;
+    border-radius: 7px;
+}
+
+tr#dados{
+    display: none;
+}

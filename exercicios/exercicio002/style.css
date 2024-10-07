@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+main{
+    width: 100vw;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main h1{
+    font-size: 3em;
+    margin-bottom: 50px;
+    color: darkgreen;
+}
+
+
+form > input,
+form > textarea,
+form > button{
+    padding: 8px;
+    margin-bottom: 5px;
+    width: 50vw;
+    display: inline;
+}
+
+form > textarea{
+    height: 50px;
+    resize: none;
+}
+
+form > button{
+    background-color: rgb(1, 90, 1);
+    color: white;
+    border: none;
+    height: 60px;
+}
+
+form > button:hover{
+    background-color: rgb(62, 167, 62);
+}
+
+form > input:focus,
+form > textarea:focus,
+form > button:focus{
+    outline-color: green;
+}

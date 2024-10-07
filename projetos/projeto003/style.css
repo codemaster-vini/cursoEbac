@@ -1,0 +1,213 @@
+@charset "UTF=8";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+
+:root{
+    --color01: #ecf0f1;
+    --color02: #182C61;
+
+    --font-padrao: "Roboto", sans-serif;
+    --font-destaque: "Bungee", sans-serif;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: var(--font-padrao);
+}
+
+header{
+    background-color: var(--color02);
+    padding: 16px 0px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.39);
+}
+
+header .container{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header h1{
+    color: var(--color01);
+    font-size: 2.5em;
+    font-family: var(--font-destaque);
+    font-weight: 400;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.247);
+}
+
+header li{
+    display: inline;
+    list-style: none;
+}
+
+header a{
+    color: var(--color01);
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 15px;
+    transition: 0.1s;
+    font-family: var(--font-destaque);
+    font-weight: 400;
+    font-size: 18px;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.247);
+}
+
+header a:hover{
+    background-color: rgba(255, 255, 255, 0.199);
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 1.2em;
+}
+
+body{
+    text-align: justify;
+    background-color: #d3ddfa;
+}
+
+.container{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0px auto;
+}
+
+section .container{
+    display: flex;
+    align-items: center;
+}
+
+section .container{
+    align-items: flex-start;
+}
+
+.logos li{
+    display: inline;
+    margin-right: 15px;
+}
+
+.principal{
+    margin-top: 15px;
+    margin-right: 20px;
+}
+
+ul img{
+    margin-right: 8px;
+}
+
+section h2{
+    margin-top: 15px;
+    margin-bottom: 16px;
+    font-family: var(--font-destaque);
+    font-weight: 400;
+    color: var(--color02);
+}
+
+section p{
+    margin-bottom: 10px;
+    text-indent: 20px;
+}
+
+aside h2, aside h3{
+    margin-top: 15px;
+    margin-bottom: 16px;
+    font-family: var(--font-destaque);
+    font-weight: 400;
+    color: var(--color02);
+}
+
+.forms form input, .forms textarea, .forms button{
+    width: 300px;
+    display: block;
+    margin: 5px 0px;
+    padding: 10px;
+}
+
+.forms textarea{
+    resize: none;
+    height: 200px;
+}
+
+.forms textarea:focus, .forms input:focus{
+    outline-color: var(--color02);
+}
+
+.forms button{
+    padding: 10px;
+    font-family: var(--font-destaque);
+    background-color: var(--color02);
+    color: var(--color01);
+    border: 0px;
+    border-radius: 5px;
+}
+
+.forms button:hover{
+    background-color: #324f9e;
+    cursor: pointer;
+}
+
+.contato{
+    margin-left: 200px;
+}
+
+.container #redes ul li{
+    display: inline;
+    list-style: none;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+footer{
+    background-color: var(--color02);
+    padding: 10px;
+    margin: auto;
+    color: var(--color01);
+    text-align: center;
+    margin-top: 20px;
+}
+
+footer .container{
+    max-width: 1280px;
+}
+
+footer a{
+    text-decoration: none;
+    color: var(--color01);
+    font-weight: bold;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
+
+#contact .container{
+    background-color: #afbfec;
+    max-width: 1280px;
+    margin-top: 20px;
+    border-radius:0px 0px 8px 8px;
+    position: absolute;
+    top: 5%;
+    left: 0%;
+    height: 91%;
+}
+
+#contact > .container{
+    background-color: var(--color02);
+    max-width: 1280px;
+    position: relative;
+    padding: 19%;
+    border: 5px solid var(--color02);
+    border-radius: 8px;
+}
+
+#contact > .container h2{
+    color: white;
+    position: absolute;
+    top: -2%;
+    left: 45%;
+}
