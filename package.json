@@ -1,0 +1,16 @@
+{
+  "name": "cursoebac",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass ./source/styles/main.scss ./build/styles/main.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "sass": "^1.80.3"
+  }
+}
