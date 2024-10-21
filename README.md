@@ -1,6 +1,7 @@
 <h1>Exercício de introdução ao <strong>Gulp</strong></h1>
+<p>Neste exercício aprendemos como automatizar processos utilizando o <strong>gulp</strong></p>
 
-<p>Tarefas de automatização</p>
+<h2>Tarefas de automatização</h2>
 <ul>
   <li>Compilar SASS para CSS</li>
   <li>Comprimir imagens</li>
