@@ -1,4 +1,4 @@
-<h1>Adaptar um projeto para que os dados sejam preenchidos via requisição Ajax</h1>
+<h1>Adaptar um projeto via requisição Ajax</h1>
 
 <h3>O objetivo é pegar um projeto com dados aleatórios e substituir os mesmos com informações do meu GitHub</h3>
 
