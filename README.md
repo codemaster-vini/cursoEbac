@@ -14,6 +14,6 @@
   </li>
   <li>
     <p>Inicie o arquivo com o camando</p>
-        `node .\src\exercicio_ts.js`
+    ```node .\src\exercicio_ts.js```
   </li>
 </ol>
