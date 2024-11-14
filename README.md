@@ -8,12 +8,10 @@
 <ol>
   <li>
     <p>Compile o código TS para JS</p>
-    ```
-        npx tsc
-    ```
+    <code>npx tsc</code>
   </li>
   <li>
     <p>Inicie o arquivo com o camando</p>
-    ```node .\src\exercicio_ts.js```
+    <code>node .\src\exercicio_ts.js</code>
   </li>
 </ol>
